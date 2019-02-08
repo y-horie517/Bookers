@@ -32,13 +32,13 @@
 <!-- form_for部分 -->
 <%= form_for(@book) do |f| %>
 
-	<p>Title</<p>
+	<p class="form-name">Title</<p>
 	<br>
 	<%= f.text_field :title, class:"book_title" %>
 
-	<p>Body</p>
+	<p class="form-name">Body</p>
 	<%= f.text_area :body, class:"book_body" %>
 	<br>
-	<%= f.submit 'Create Book' %>
+	<%= f.submit 'Create Book', class:"button" %>
 
 <% end %>
