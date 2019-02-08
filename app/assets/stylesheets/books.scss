@@ -1,0 +1,67 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*各ページ共通*/
+body{
+	margin: 33px 33px 33px 33px;
+}
+
+/*登録・修正・削除の成功メッセージ用*/
+.notice{
+	color: green;
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+/*各ページのリンクボタン用*/
+.link{
+	font-size: 15px;
+	color: #000;
+}
+ /*各ページ共通*/
+
+/*top.html.erb内*/
+.top-title{
+	color: #515151;
+	font-size: 25px;
+}
+
+/*反映されていない*/
+.top-text{
+	font-size: 13px;
+	color: #515151;
+	margin: 30px 30px 30px 30px;
+}
+
+.start{
+	margin-left: 30px;
+}
+
+/*index.html.erb内部*/
+table{
+	margin-bottom: 20px;
+}
+
+.newbook{
+	margin-top: 30px;
+}
+
+/*show.html.erb内*/ 
+.show-text{
+	font-size: 13px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+/*edit.html.erb内*/ 
+.form-name{
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+
+.button{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
